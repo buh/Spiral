@@ -1,8 +1,6 @@
+// The MIT License (MIT)
 //
-//  CircleSpiralView.swift
-//  SpiralDemo
-//
-//  Created by bukhtin on 14/05/2022.
+// Copyright (c) 2022 Alexey Bukhtin (github.com/buh).
 //
 
 import SwiftUI
@@ -66,52 +64,17 @@ struct CircleSpiralView: View {
                 }
             }
             
-            CompactSlider(
-                from: $startAt,
-                to: $endAt,
-                in: 0...1440,
-                step: 10) {
-                Text("Start: \(Int(startAt))")
-                Spacer()
-                Text("End: \(Int(endAt))")
-            }
-            .compactSliderDisabledHapticFeedback(true)
+            SpiralBaseControls(
+                startAt: $startAt,
+                endAt: $endAt,
+                smoothness: $smoothness
+            )
             
-            CompactSlider(value: $smoothness, in: 2...50, step: 1) {
-                Text("2")
-                Spacer()
-                Text("Smoothness: \(Int(smoothness))")
-                Spacer()
-                Text("50")
-            }
-            .compactSliderDisabledHapticFeedback(true)
-            
-            HStack {
-                Text("Offset:")
-                
-                CompactSlider(
-                    value: $offsetRadius,
-                    in: -40...40,
-                    step: 1,
-                    direction: .center
-                ) {
-                    Text("Radius: \(Int(offsetRadius))")
-                    Spacer()
-                }
-                
-                CompactSlider(
-                    value: $offsetAngle,
-                    in: -45...45,
-                    step: 1,
-                    direction: .center
-                ) {
-                    Text("Angle: \(Int(offsetAngle))")
-                    Spacer()
-                }
-                
-                Divider().frame(height: 40)
-                Toggle("Show guide line", isOn: $showGuideLine)
-            }
+            GuideLineControls(
+                offsetRadius: $offsetRadius,
+                offsetAngle: $offsetAngle,
+                showGuideLine: $showGuideLine
+            )
         }
         .padding()
     }

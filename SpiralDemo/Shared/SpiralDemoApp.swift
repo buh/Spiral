@@ -1,8 +1,6 @@
+// The MIT License (MIT)
 //
-//  SpiralDemoApp.swift
-//  Shared
-//
-//  Created by bukhtin on 14/05/2022.
+// Copyright (c) 2022 Alexey Bukhtin (github.com/buh).
 //
 
 import SwiftUI

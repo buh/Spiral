@@ -1,8 +1,6 @@
+// The MIT License (MIT)
 //
-//  ContentView.swift
-//  Shared
-//
-//  Created by bukhtin on 14/05/2022.
+// Copyright (c) 2022 Alexey Bukhtin (github.com/buh).
 //
 
 import SwiftUI
@@ -23,6 +21,18 @@ struct ContentView: View {
             CircleSpiralView()
                 .tabItem {
                     Label("Circle", systemImage: "circle")
+                }
+            TextSpiralView()
+                .tabItem {
+                    Label("Text", systemImage: "t.circle")
+                }
+            ChartSpiralView()
+                .tabItem {
+                    Label("Chart", systemImage: "chart.bar.xaxis")
+                }
+            ExampleSpiralView()
+                .tabItem {
+                    Label("Example", systemImage: "star")
                 }
             CoverView()
                 .tabItem {

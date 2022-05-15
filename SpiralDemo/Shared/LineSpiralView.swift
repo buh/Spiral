@@ -1,8 +1,6 @@
+// The MIT License (MIT)
 //
-//  LineSpiralView.swift
-//  SpiralDemo
-//
-//  Created by bukhtin on 14/05/2022.
+// Copyright (c) 2022 Alexey Bukhtin (github.com/buh).
 //
 
 import SwiftUI
@@ -38,23 +36,11 @@ struct LineSpiralView: View {
                 Text("100")
             }
             
-            CompactSlider(
-                from: $startAt,
-                to: $endAt,
-                in: 0...1440,
-                step: 10) {
-                Text("Start: \(Int(startAt))")
-                Spacer()
-                Text("End: \(Int(endAt))")
-            }
-            
-            CompactSlider(value: $smoothness, in: 2...50, step: 1) {
-                Text("2")
-                Spacer()
-                Text("Smoothness: \(Int(smoothness))")
-                Spacer()
-                Text("50")
-            }
+            SpiralBaseControls(
+                startAt: $startAt,
+                endAt: $endAt,
+                smoothness: $smoothness
+            )
         }
         .padding()
     }

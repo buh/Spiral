@@ -25,6 +25,18 @@
 		4AB327DB28304F7000A4FEE0 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327DA28304F7000A4FEE0 /* CoverView.swift */; };
 		4AB327DD2830675400A4FEE0 /* CompactSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB327DC2830675400A4FEE0 /* CompactSlider */; };
 		4AB327DE2830676700A4FEE0 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327DA28304F7000A4FEE0 /* CoverView.swift */; };
+		4ADEA717283139B900C831A6 /* TextSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA716283139B900C831A6 /* TextSpiralView.swift */; };
+		4ADEA718283139B900C831A6 /* TextSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA716283139B900C831A6 /* TextSpiralView.swift */; };
+		4ADEA71A2831607A00C831A6 /* ExampleSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA7192831607A00C831A6 /* ExampleSpiralView.swift */; };
+		4ADEA71B2831607A00C831A6 /* ExampleSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA7192831607A00C831A6 /* ExampleSpiralView.swift */; };
+		4ADEA71D283162A900C831A6 /* GuideLineControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA71C283162A900C831A6 /* GuideLineControls.swift */; };
+		4ADEA71E283162A900C831A6 /* GuideLineControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA71C283162A900C831A6 /* GuideLineControls.swift */; };
+		4ADEA7202831636500C831A6 /* SpiralBaseControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA71F2831636500C831A6 /* SpiralBaseControls.swift */; };
+		4ADEA7212831636500C831A6 /* SpiralBaseControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA71F2831636500C831A6 /* SpiralBaseControls.swift */; };
+		4ADEA723283167C500C831A6 /* ChartSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA722283167C500C831A6 /* ChartSpiralView.swift */; };
+		4ADEA724283167C500C831A6 /* ChartSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA722283167C500C831A6 /* ChartSpiralView.swift */; };
+		4ADEA72628316D9F00C831A6 /* AutoStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA72528316D9F00C831A6 /* AutoStack.swift */; };
+		4ADEA72728316D9F00C831A6 /* AutoStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEA72528316D9F00C831A6 /* AutoStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +51,12 @@
 		4AB327D4283031DE00A4FEE0 /* RectangleSpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleSpiralView.swift; sourceTree = "<group>"; };
 		4AB327D72830330A00A4FEE0 /* CircleSpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSpiralView.swift; sourceTree = "<group>"; };
 		4AB327DA28304F7000A4FEE0 /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		4ADEA716283139B900C831A6 /* TextSpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSpiralView.swift; sourceTree = "<group>"; };
+		4ADEA7192831607A00C831A6 /* ExampleSpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSpiralView.swift; sourceTree = "<group>"; };
+		4ADEA71C283162A900C831A6 /* GuideLineControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideLineControls.swift; sourceTree = "<group>"; };
+		4ADEA71F2831636500C831A6 /* SpiralBaseControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralBaseControls.swift; sourceTree = "<group>"; };
+		4ADEA722283167C500C831A6 /* ChartSpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSpiralView.swift; sourceTree = "<group>"; };
+		4ADEA72528316D9F00C831A6 /* AutoStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +100,13 @@
 				4AB327D12830312600A4FEE0 /* LineSpiralView.swift */,
 				4AB327D4283031DE00A4FEE0 /* RectangleSpiralView.swift */,
 				4AB327D72830330A00A4FEE0 /* CircleSpiralView.swift */,
+				4ADEA716283139B900C831A6 /* TextSpiralView.swift */,
+				4ADEA722283167C500C831A6 /* ChartSpiralView.swift */,
+				4ADEA7192831607A00C831A6 /* ExampleSpiralView.swift */,
 				4AB327DA28304F7000A4FEE0 /* CoverView.swift */,
+				4ADEA71F2831636500C831A6 /* SpiralBaseControls.swift */,
+				4ADEA71C283162A900C831A6 /* GuideLineControls.swift */,
+				4ADEA72528316D9F00C831A6 /* AutoStack.swift */,
 				4AB327AB28300B8B00A4FEE0 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -230,10 +254,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB327D22830312600A4FEE0 /* LineSpiralView.swift in Sources */,
+				4ADEA723283167C500C831A6 /* ChartSpiralView.swift in Sources */,
+				4ADEA7202831636500C831A6 /* SpiralBaseControls.swift in Sources */,
+				4ADEA717283139B900C831A6 /* TextSpiralView.swift in Sources */,
 				4AB327D82830330A00A4FEE0 /* CircleSpiralView.swift in Sources */,
+				4ADEA71A2831607A00C831A6 /* ExampleSpiralView.swift in Sources */,
 				4AB327DE2830676700A4FEE0 /* CoverView.swift in Sources */,
 				4AB327BB28300B8B00A4FEE0 /* ContentView.swift in Sources */,
 				4AB327B928300B8B00A4FEE0 /* SpiralDemoApp.swift in Sources */,
+				4ADEA72628316D9F00C831A6 /* AutoStack.swift in Sources */,
+				4ADEA71D283162A900C831A6 /* GuideLineControls.swift in Sources */,
 				4AB327D5283031DE00A4FEE0 /* RectangleSpiralView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,10 +273,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB327D32830312600A4FEE0 /* LineSpiralView.swift in Sources */,
+				4ADEA724283167C500C831A6 /* ChartSpiralView.swift in Sources */,
+				4ADEA7212831636500C831A6 /* SpiralBaseControls.swift in Sources */,
+				4ADEA718283139B900C831A6 /* TextSpiralView.swift in Sources */,
 				4AB327D92830330A00A4FEE0 /* CircleSpiralView.swift in Sources */,
+				4ADEA71B2831607A00C831A6 /* ExampleSpiralView.swift in Sources */,
 				4AB327DB28304F7000A4FEE0 /* CoverView.swift in Sources */,
 				4AB327BC28300B8B00A4FEE0 /* ContentView.swift in Sources */,
 				4AB327BA28300B8B00A4FEE0 /* SpiralDemoApp.swift in Sources */,
+				4ADEA72728316D9F00C831A6 /* AutoStack.swift in Sources */,
+				4ADEA71E283162A900C831A6 /* GuideLineControls.swift in Sources */,
 				4AB327D6283031DE00A4FEE0 /* RectangleSpiralView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
