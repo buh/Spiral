@@ -19,7 +19,7 @@ A spiral is a component that includes a point generator, `Shape` and `View` of t
 - [Usage](#usage)
   - [Spiral Shape](#spiral-shape)
   - [Spiral View](#spiral-view)
-- [Documentation](https://prowork.today/CompactSlider/documentation/compactslider)
+- [Documentation](https://prowork.today/Spiral/documentation/spiral)
 - [License](#license)
 
 # Requirements
