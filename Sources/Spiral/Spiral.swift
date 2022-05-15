@@ -10,12 +10,12 @@ import SwiftUI
 /// Shapes without an explicit fill or stroke get a default fill based on the foreground color.
 public struct Spiral: Shape {
     
-    let pathType: SpiralPathType
-    let startAt: Angle
-    let endAt: Angle
-    let smoothness: CGFloat
-    let offsetRadius: CGFloat
-    let offsetAngle: Angle
+    private let pathType: SpiralPathType
+    private let startAt: Angle
+    private let endAt: Angle
+    private let smoothness: CGFloat
+    private let offsetRadius: CGFloat
+    private let offsetAngle: Angle
     
     /// Creates a spiral.
     ///
@@ -78,7 +78,7 @@ public struct Spiral: Shape {
                     path.addRect(rect, transform: transform)
                 }
                 
-            } else if case .graph(let callback) = pathType {
+            } else if case .chart(let callback) = pathType {
                 path.addLines(spiralPoints.map(\.point).reversed())
                 let count = spiralPoints.count
                                 
@@ -111,11 +111,11 @@ public enum SpiralPathType {
     /// Rectangle type draws rectangles at spiral points.
     case rect(width: CGFloat, height: CGFloat)
     
-    /// The graph type draws a graph on the basis of the function.
+    /// The chart type draws a chart on the basis of the function.
     ///
-    /// The function should return the height of the graph at the requested point of the spiral,
+    /// The function should return the height of the chart at the requested point of the spiral,
     /// which is forwarded as the progress of all points and has a range of 0 to 1.
-    case graph((_ progress: Double) -> CGFloat)
+    case chart((_ progress: Double) -> CGFloat)
 }
 
 // MARK: - CG Helpers
