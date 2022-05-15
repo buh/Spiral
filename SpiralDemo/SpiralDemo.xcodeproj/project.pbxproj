@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AB327B928300B8B00A4FEE0 /* SpiralDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327A928300B8900A4FEE0 /* SpiralDemoApp.swift */; };
+		4AB327BA28300B8B00A4FEE0 /* SpiralDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327A928300B8900A4FEE0 /* SpiralDemoApp.swift */; };
+		4AB327BB28300B8B00A4FEE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327AA28300B8900A4FEE0 /* ContentView.swift */; };
+		4AB327BC28300B8B00A4FEE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327AA28300B8900A4FEE0 /* ContentView.swift */; };
+		4AB327BD28300B8B00A4FEE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB327AB28300B8B00A4FEE0 /* Assets.xcassets */; };
+		4AB327BE28300B8B00A4FEE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB327AB28300B8B00A4FEE0 /* Assets.xcassets */; };
+		4AB327CB28300BE900A4FEE0 /* Spiral in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB327CA28300BE900A4FEE0 /* Spiral */; };
+		4AB327CD28300BEF00A4FEE0 /* Spiral in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB327CC28300BEF00A4FEE0 /* Spiral */; };
+		4AB327D02830120000A4FEE0 /* CompactSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB327CF2830120000A4FEE0 /* CompactSlider */; };
+		4AB327D22830312600A4FEE0 /* LineSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327D12830312600A4FEE0 /* LineSpiralView.swift */; };
+		4AB327D32830312600A4FEE0 /* LineSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327D12830312600A4FEE0 /* LineSpiralView.swift */; };
+		4AB327D5283031DE00A4FEE0 /* RectangleSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327D4283031DE00A4FEE0 /* RectangleSpiralView.swift */; };
+		4AB327D6283031DE00A4FEE0 /* RectangleSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327D4283031DE00A4FEE0 /* RectangleSpiralView.swift */; };
+		4AB327D82830330A00A4FEE0 /* CircleSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327D72830330A00A4FEE0 /* CircleSpiralView.swift */; };
+		4AB327D92830330A00A4FEE0 /* CircleSpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327D72830330A00A4FEE0 /* CircleSpiralView.swift */; };
+		4AB327DB28304F7000A4FEE0 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327DA28304F7000A4FEE0 /* CoverView.swift */; };
+		4AB327DD2830675400A4FEE0 /* CompactSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB327DC2830675400A4FEE0 /* CompactSlider */; };
+		4AB327DE2830676700A4FEE0 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB327DA28304F7000A4FEE0 /* CoverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AB327A928300B8900A4FEE0 /* SpiralDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralDemoApp.swift; sourceTree = "<group>"; };
+		4AB327AA28300B8900A4FEE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4AB327AB28300B8B00A4FEE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AB327B028300B8B00A4FEE0 /* SpiralDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiralDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB327B628300B8B00A4FEE0 /* SpiralDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiralDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB327B828300B8B00A4FEE0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4AB327C828300BA200A4FEE0 /* Spiral */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Spiral; path = ..; sourceTree = "<group>"; };
+		4AB327D12830312600A4FEE0 /* LineSpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSpiralView.swift; sourceTree = "<group>"; };
+		4AB327D4283031DE00A4FEE0 /* RectangleSpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleSpiralView.swift; sourceTree = "<group>"; };
+		4AB327D72830330A00A4FEE0 /* CircleSpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSpiralView.swift; sourceTree = "<group>"; };
+		4AB327DA28304F7000A4FEE0 /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB327AD28300B8B00A4FEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB327CD28300BEF00A4FEE0 /* Spiral in Frameworks */,
+				4AB327DD2830675400A4FEE0 /* CompactSlider in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB327B328300B8B00A4FEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB327CB28300BE900A4FEE0 /* Spiral in Frameworks */,
+				4AB327D02830120000A4FEE0 /* CompactSlider in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AB327A328300B8900A4FEE0 = {
+			isa = PBXGroup;
+			children = (
+				4AB327C728300BA200A4FEE0 /* Packages */,
+				4AB327A828300B8900A4FEE0 /* Shared */,
+				4AB327B728300B8B00A4FEE0 /* macOS */,
+				4AB327B128300B8B00A4FEE0 /* Products */,
+				4AB327C928300BE900A4FEE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB327A828300B8900A4FEE0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4AB327A928300B8900A4FEE0 /* SpiralDemoApp.swift */,
+				4AB327AA28300B8900A4FEE0 /* ContentView.swift */,
+				4AB327D12830312600A4FEE0 /* LineSpiralView.swift */,
+				4AB327D4283031DE00A4FEE0 /* RectangleSpiralView.swift */,
+				4AB327D72830330A00A4FEE0 /* CircleSpiralView.swift */,
+				4AB327DA28304F7000A4FEE0 /* CoverView.swift */,
+				4AB327AB28300B8B00A4FEE0 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4AB327B128300B8B00A4FEE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB327B028300B8B00A4FEE0 /* SpiralDemo.app */,
+				4AB327B628300B8B00A4FEE0 /* SpiralDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB327B728300B8B00A4FEE0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4AB327B828300B8B00A4FEE0 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		4AB327C728300BA200A4FEE0 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4AB327C828300BA200A4FEE0 /* Spiral */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		4AB327C928300BE900A4FEE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AB327AF28300B8B00A4FEE0 /* SpiralDemo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB327C128300B8B00A4FEE0 /* Build configuration list for PBXNativeTarget "SpiralDemo (iOS)" */;
+			buildPhases = (
+				4AB327AC28300B8B00A4FEE0 /* Sources */,
+				4AB327AD28300B8B00A4FEE0 /* Frameworks */,
+				4AB327AE28300B8B00A4FEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpiralDemo (iOS)";
+			packageProductDependencies = (
+				4AB327CC28300BEF00A4FEE0 /* Spiral */,
+				4AB327DC2830675400A4FEE0 /* CompactSlider */,
+			);
+			productName = "SpiralDemo (iOS)";
+			productReference = 4AB327B028300B8B00A4FEE0 /* SpiralDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AB327B528300B8B00A4FEE0 /* SpiralDemo (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB327C428300B8B00A4FEE0 /* Build configuration list for PBXNativeTarget "SpiralDemo (macOS)" */;
+			buildPhases = (
+				4AB327B228300B8B00A4FEE0 /* Sources */,
+				4AB327B328300B8B00A4FEE0 /* Frameworks */,
+				4AB327B428300B8B00A4FEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpiralDemo (macOS)";
+			packageProductDependencies = (
+				4AB327CA28300BE900A4FEE0 /* Spiral */,
+				4AB327CF2830120000A4FEE0 /* CompactSlider */,
+			);
+			productName = "SpiralDemo (macOS)";
+			productReference = 4AB327B628300B8B00A4FEE0 /* SpiralDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB327A428300B8900A4FEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4AB327AF28300B8B00A4FEE0 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					4AB327B528300B8B00A4FEE0 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4AB327A728300B8900A4FEE0 /* Build configuration list for PBXProject "SpiralDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AB327A328300B8900A4FEE0;
+			packageReferences = (
+				4AB327CE2830120000A4FEE0 /* XCRemoteSwiftPackageReference "CompactSlider" */,
+			);
+			productRefGroup = 4AB327B128300B8B00A4FEE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB327AF28300B8B00A4FEE0 /* SpiralDemo (iOS) */,
+				4AB327B528300B8B00A4FEE0 /* SpiralDemo (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB327AE28300B8B00A4FEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB327BD28300B8B00A4FEE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB327B428300B8B00A4FEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB327BE28300B8B00A4FEE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB327AC28300B8B00A4FEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB327D22830312600A4FEE0 /* LineSpiralView.swift in Sources */,
+				4AB327D82830330A00A4FEE0 /* CircleSpiralView.swift in Sources */,
+				4AB327DE2830676700A4FEE0 /* CoverView.swift in Sources */,
+				4AB327BB28300B8B00A4FEE0 /* ContentView.swift in Sources */,
+				4AB327B928300B8B00A4FEE0 /* SpiralDemoApp.swift in Sources */,
+				4AB327D5283031DE00A4FEE0 /* RectangleSpiralView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB327B228300B8B00A4FEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB327D32830312600A4FEE0 /* LineSpiralView.swift in Sources */,
+				4AB327D92830330A00A4FEE0 /* CircleSpiralView.swift in Sources */,
+				4AB327DB28304F7000A4FEE0 /* CoverView.swift in Sources */,
+				4AB327BC28300B8B00A4FEE0 /* ContentView.swift in Sources */,
+				4AB327BA28300B8B00A4FEE0 /* SpiralDemoApp.swift in Sources */,
+				4AB327D6283031DE00A4FEE0 /* RectangleSpiralView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AB327BF28300B8B00A4FEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AB327C028300B8B00A4FEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4AB327C228300B8B00A4FEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML8W6366WF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.buh.SpiralDemo;
+				PRODUCT_NAME = SpiralDemo;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AB327C328300B8B00A4FEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML8W6366WF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.buh.SpiralDemo;
+				PRODUCT_NAME = SpiralDemo;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AB327C528300B8B00A4FEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML8W6366WF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.buh.SpiralDemo;
+				PRODUCT_NAME = SpiralDemo;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4AB327C628300B8B00A4FEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ML8W6366WF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.buh.SpiralDemo;
+				PRODUCT_NAME = SpiralDemo;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB327A728300B8900A4FEE0 /* Build configuration list for PBXProject "SpiralDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB327BF28300B8B00A4FEE0 /* Debug */,
+				4AB327C028300B8B00A4FEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB327C128300B8B00A4FEE0 /* Build configuration list for PBXNativeTarget "SpiralDemo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB327C228300B8B00A4FEE0 /* Debug */,
+				4AB327C328300B8B00A4FEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB327C428300B8B00A4FEE0 /* Build configuration list for PBXNativeTarget "SpiralDemo (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB327C528300B8B00A4FEE0 /* Debug */,
+				4AB327C628300B8B00A4FEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4AB327CE2830120000A4FEE0 /* XCRemoteSwiftPackageReference "CompactSlider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/buh/CompactSlider.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AB327CA28300BE900A4FEE0 /* Spiral */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Spiral;
+		};
+		4AB327CC28300BEF00A4FEE0 /* Spiral */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Spiral;
+		};
+		4AB327CF2830120000A4FEE0 /* CompactSlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB327CE2830120000A4FEE0 /* XCRemoteSwiftPackageReference "CompactSlider" */;
+			productName = CompactSlider;
+		};
+		4AB327DC2830675400A4FEE0 /* CompactSlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB327CE2830120000A4FEE0 /* XCRemoteSwiftPackageReference "CompactSlider" */;
+			productName = CompactSlider;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4AB327A428300B8900A4FEE0 /* Project object */;
+}
