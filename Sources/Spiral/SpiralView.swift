@@ -5,6 +5,7 @@
 
 import SwiftUI
 
+/// View with placement of contents on spiral points.
 public struct SpiralView<Content: View>: View {
     
     private let startAt: Angle
@@ -14,7 +15,16 @@ public struct SpiralView<Content: View>: View {
     private let offsetAngle: Angle
     @Binding private var pointsCount: Int
     @ViewBuilder private let content: (Int, SpiralPoint) -> Content
-
+    
+    /// Creates a view with placement of contents on spiral points.
+    /// - Parameters:
+    ///   - startAt: the start angle of a spiral.
+    ///   - endAt: the end angle of a spiral.
+    ///   - smoothness: the point density which describes a spiral.
+    ///   - offsetRadius: spiral radius offset for each point with respect to the calculated angle and frame.
+    ///   - offsetAngle: angle offset of each spiral point with respect to the calculated angle and frame.
+    ///   - pointsCount: the number of spiral points.
+    ///   - content: the content view.
     public init(
         startAt: Angle = .degrees(90),
         endAt: Angle = .degrees(450),
