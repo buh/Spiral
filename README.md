@@ -53,7 +53,7 @@ https://user-images.githubusercontent.com/284922/168489048-ab6fd895-c26b-499e-aa
 <img width="375" alt="chart1" src="https://user-images.githubusercontent.com/284922/168489302-7ae5cd1a-33a3-4396-a1b5-89eb626d41e8.jpeg">
 <img width="375" alt="chart2" src="https://user-images.githubusercontent.com/284922/168489329-129595b3-4136-47e7-b754-184987b042b7.jpeg">
 
-### Example
+### Usage Example
 <img width="480" alt="chart2" src="https://user-images.githubusercontent.com/284922/168489399-b5c33896-b315-46d0-aa2f-dd28e732977c.jpeg">
 
 # Usage
