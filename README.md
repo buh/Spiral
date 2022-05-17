@@ -108,7 +108,7 @@ You can find the generated DocC documentation [here](https://prowork.today/Spira
 
 You can play with all the parameters in the demo app, which can be run on macOS, iPad, iPhone.
 
-The app heavily uses the `CompactSlider', which you can find out more about [here](https://github.com/buh/CompactSlider).
+The app heavily uses the `CompactSlider`, which you can find out more about [here](https://github.com/buh/CompactSlider).
 
 # License
 
