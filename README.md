@@ -20,6 +20,7 @@ A spiral is a component that includes a point generator, `Shape` and `View` of t
   - [Spiral Shape](#spiral-shape)
   - [Spiral View](#spiral-view)
 - [Documentation](https://prowork.today/Spiral/documentation/spiral)
+- [Demo App](#demo-app)
 - [License](#license)
 
 # Requirements
@@ -102,6 +103,12 @@ var body: some View {
 # Documentation
 
 You can find the generated DocC documentation [here](https://prowork.today/Spiral/documentation/spiral).
+
+# Demo App
+
+You can play with all the parameters in the demo app, which can be run on macOS, iPad, iPhone.
+
+The app heavily uses the `CompactSlider', which you can find out more about [here](https://github.com/buh/CompactSlider).
 
 # License
 
