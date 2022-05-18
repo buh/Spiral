@@ -7,6 +7,9 @@ import SwiftUI
 import Spiral
 
 struct CoverView: View {
+    
+    @State private var rotate = false
+    
     var body: some View {
         ZStack {
             Color(hue: 0.44, saturation: 0.4, brightness: 0.9)
@@ -23,6 +26,7 @@ struct CoverView: View {
                 .offset(y: 15)
                 .padding(20)
                 .frame(width: 250, height: 250)
+                .rotationEffect(.degrees(rotate ? 720 : 0))
                 .background(
                     RoundedRectangle(cornerRadius: 38, style: .continuous)
                         .fill(.white)
@@ -49,6 +53,15 @@ struct CoverView: View {
             .padding()
         }
         .clipShape(RoundedRectangle(cornerRadius: 38, style: .continuous))
+        .onAppear {
+            withAnimation(
+                Animation.easeInOut(duration: 4)
+                    .repeatForever(autoreverses: true)
+                    .delay(0.5)
+            ) {
+                rotate = true
+            }
+        }
         #if os(macOS)
         .padding()
         #else
