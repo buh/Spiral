@@ -110,6 +110,10 @@ You can play with all the parameters in the demo app, which can be run on macOS,
 
 The app heavily uses the `CompactSlider`, which you can find out more about [here](https://github.com/buh/CompactSlider).
 
+# Support
+
+You can buy me a coffee [here](https://www.buymeacoffee.com/bukhtin) ☕️
+
 # License
 
 `Spiral` is available under the [MIT license](https://github.com/buh/Spiral/blob/main/LICENSE)
